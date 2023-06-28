@@ -1,0 +1,17 @@
+<%- include("templates/encabezado")%>
+<%- include("templates/encabezado")%>
+<form action="/validar" method="post" id="form">
+    <div>
+        <input type="text" name="usuario" id="usuario" placeholder="Usuario" autofocus>
+        <span id="mensajeUsr"></span>
+    </div>
+    <div>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <span id="mensajePasw"></span>
+    </div>
+    <div>
+        <button type="submit">Log in</button>
+    </div>
+</form>
+
+<%- include("templates/pie")%>
